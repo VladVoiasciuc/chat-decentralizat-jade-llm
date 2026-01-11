@@ -8,7 +8,7 @@ Tehnologii: JADE (Java), FastAPI + Ollama (Python bridge pentru LLM), FlatLAF pe
 
 Descriere generală
 Aplicatia implementează un sistem de chat descentralizat folosind platforma JADE. Fiecare utilizator este reprezentat de un agent ChatAgent cu interfață grafică proprie. Descoperirea utilizatorilor și comunicarea se face prin mesaje ACL directe (P2P), cu ajutorul Director Facilitator (DF) doar pentru înregistrare și discovery.
-S-a adăugat un agent coordonator pentru închidere centralizată și un agent asistent LLM (bonus) care răspunde la întrebări folosind Ollama prin intermediul unui bridge FastAPI.
+S-a adăugat un agent coordonator pentru închidere centralizată și un agent asistent LLM care răspunde la întrebări folosind Ollama prin intermediul unui bridge FastAPI.
 Agenți implementați
 
 ChatAgent (multiplu – ex: maria, ion, ana)
