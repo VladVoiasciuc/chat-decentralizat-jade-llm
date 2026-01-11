@@ -1,0 +1,8 @@
+[Sun Jan 11 16:32:38 EET 2026] ioan → Me: what
+[Sun Jan 11 16:51:55 EET 2026] ana → Me: stfu
+[Sun Jan 11 17:31:07 EET 2026] Me → ioan: da
+[Sun Jan 11 17:36:37 EET 2026] Me → ioan: da
+[Sun Jan 11 17:36:56 EET 2026] ioan → Me: what
+[Sun Jan 11 17:44:02 EET 2026] Me → ana: adasd
+[Sun Jan 11 18:17:18 EET 2026] ioan → Me: da
+[Sun Jan 11 18:34:35 EET 2026] Me → ioan: da

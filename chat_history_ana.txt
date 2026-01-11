@@ -1,0 +1,13 @@
+[Sun Jan 11 16:32:57 EET 2026] Me → ioan: ok
+[Sun Jan 11 16:38:25 EET 2026] ioan → Me: sadasd
+[Sun Jan 11 16:38:30 EET 2026] Me → ioan: asdasd
+[Sun Jan 11 16:51:49 EET 2026] ioan → Me: salut
+[Sun Jan 11 16:51:55 EET 2026] Me → maria: stfu
+[Sun Jan 11 16:52:11 EET 2026] Me → ioan: waht
+[Sun Jan 11 17:44:02 EET 2026] maria → Me: adasd
+[Sun Jan 11 19:21:32 EET 2026] You → AI: care este capitala frantei?
+[Sun Jan 11 19:21:32 EET 2026] AI → Me: Paris
+[Sun Jan 11 19:21:40 EET 2026] Me → ion: salut
+[Sun Jan 11 19:22:03 EET 2026] Me → ion: salut, ce faci?
+[Sun Jan 11 19:22:31 EET 2026] Me → ion: aslut
+[Sun Jan 11 19:22:38 EET 2026] ion → Me: salut
