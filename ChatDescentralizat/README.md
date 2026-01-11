@@ -48,7 +48,6 @@ Cerințe îndeplinite (grilă de notare)
 2 pct Structură avansată → GUI modernă, istoric persistent, Ask AI integrat, coordonator dedicat.
 1 pct Agent Pydantic/LLM → LLMAssistantAgent complet funcțional cu bridge FastAPI/Ollama.
 
-Total: 10/10
 Instrucțiuni de rulare
 1. Server LLM bridge (Python)
 
