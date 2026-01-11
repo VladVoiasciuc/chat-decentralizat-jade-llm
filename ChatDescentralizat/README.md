@@ -22,7 +22,7 @@ Salvare istoric conversații în fișiere text (chat_history_nume.txt).
 CoordinatorAgent
 Primește comanda shutdown_all și trimite mesaj „shutdown” tuturor ChatAgent-ilor (închidere centralizată a ecosistemului).
 
-LLMAssistantAgent (bonus)
+LLMAssistantAgent
 Primește întrebări de la ChatAgent prin ACL QUERY_IF.
 Trimite request POST către serverul FastAPI local (http://localhost:8000/agent/solve).
 Primește și returnă răspunsul de la modelul Ollama (llama3.2).
