@@ -11,3 +11,5 @@
 [Sun Jan 11 19:22:03 EET 2026] Me → ion: salut, ce faci?
 [Sun Jan 11 19:22:31 EET 2026] Me → ion: aslut
 [Sun Jan 11 19:22:38 EET 2026] ion → Me: salut
+[Sun Jan 11 19:45:26 EET 2026] You → AI: capitala romaniei
+[Sun Jan 11 19:45:30 EET 2026] AI → Me: București
