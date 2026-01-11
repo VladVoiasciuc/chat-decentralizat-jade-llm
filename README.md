@@ -1,5 +1,5 @@
 Proiect Sisteme Inteligente – Chat Decentralizat cu Agenți JADE și Asistent LLM
-Autor: [Numele tău]
+Autor: Voiașciuc Vlad - GRUPA 3141B
 Proiect ales: Proiectul 1 – Ecosistem de agenți de tip chat (implementare descentralizată, peer-to-peer)
 Tehnologii: JADE (Java), FastAPI + Ollama (Python bridge pentru LLM), FlatLAF pentru GUI
 Descriere generală
