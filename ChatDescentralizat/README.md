@@ -53,22 +53,26 @@ Cerințe îndeplinite (grilă de notare)
 1 pct Agent Pydantic/LLM → LLMAssistantAgent complet funcțional cu bridge FastAPI/Ollama.
 
 Instrucțiuni de rulare
-1. Server LLM bridge (Python)
 
-Asigurați-vă că Ollama rulează și modelul este descărcat:Bashollama pull llama3.2
-Rulați serverul (dublu-click pe run.bat sau):Bashuvicorn src.app:app --host 0.0.0.0 --port 8000 --reload
+1. Server LLM bridge (Python – obligatoriu pentru funcționalitatea Ask AI)
+   - Asigurați-vă că Ollama rulează și modelul llama3.2 este descărcat:
+     ollama pull llama3.2
+   - Rulați serverul FastAPI: dublu-click pe llm-bridge/run.bat (sau din terminal: uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload).
+   - Lăsați fereastra deschisă pe tot parcursul rulării JADE.
 
-2. Platforma JADE (Eclipse sau linie de comandă)
-Run configuration recomandată (Eclipse → Run Configurations → Arguments):
-text-gui -agents coordinator:chat.agents.CoordinatorAgent;llm:chat.agents.LLMAssistantAgent;maria:chat.agents.ChatAgent;ion:chat.agents.ChatAgent;ana:chat.agents.ChatAgent
-Sau comandă manuală (din folderul proiectului, după build):
-Bashjava -cp "lib/*;bin" jade.Boot -gui -agents coordinator:chat.agents.CoordinatorAgent;llm:chat.agents.LLMAssistantAgent;maria:chat.agents.ChatAgent;ion:chat.agents.ChatAgent;ana:chat.agents.ChatAgent
+2. Platforma JADE
+   Opțiune 1 (recomandată – Eclipse):
+   - Rulați Run Configuration „test1” (argumente program: -gui -agents coordinator:chat.agents.CoordinatorAgent;llm:chat.agents.LLMAssistantAgent;maria:chat.agents.ChatAgent;ion:chat.agents.ChatAgent;ana:chat.agents.ChatAgent).
+
+   Opțiune 2 (comandă manuală):
+   - Din folderul jade-chat (după build):
+     java -cp "lib/*;bin" jade.Boot -gui -agents coordinator:chat.agents.CoordinatorAgent;llm:chat.agents.LLMAssistantAgent;maria:chat.agents.ChatAgent;ion:chat.agents.ChatAgent;ana:chat.agents.ChatAgent
+
 3. Utilizare
-
-Se deschid ferestrele GUI pentru fiecare ChatAgent.
-Selectați destinatar → scrieți mesaj → Send.
-Pentru AI: scrieți întrebare → Ask AI.
-Închidere: trimiteți mesaj „shutdown_all” către CoordinatorAgent (prin Sniffer sau manual).
+   - Se deschid ferestrele GUI pentru utilizatori.
+   - Selectați destinatar → trimiteți mesaj cu Send.
+   - Întrebări AI: scrieți în câmp → Ask AI.
+   - Shutdown centralizat: trimiteți mesaj „shutdown_all” către CoordinatorAgent (prin DummyAgent sau Sniffer).
 
 Fișiere suplimentare recomandate pentru predare
 
